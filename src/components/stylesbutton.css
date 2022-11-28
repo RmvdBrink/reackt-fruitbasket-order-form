@@ -1,0 +1,23 @@
+
+button {
+    margin: 0 8px;
+    padding: 2px 8px;
+    font-size: 18px;
+    width: auto;
+}
+.fruit-counters button,
+form button{
+    margin: 8px 0;
+    width: 100%;
+    padding: 8px 0;
+}
+.active {
+    border: solid 2px red;
+}
+
+.default {
+    border: solid 2px green;
+}
+.start {
+    border: solid 2px dodgerblue;
+}

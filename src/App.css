@@ -1,0 +1,79 @@
+* {
+    box-sizing: border-box;
+}
+
+
+#root {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #a8f6a8;
+}
+article {
+    display: flex;
+    align-items: baseline;
+    justify-content: center;
+    border: 1px solid black;
+    border-radius: 4px;
+    margin: 8px 0;
+    padding: 4px 8px;
+    width: 100%;
+    background-color: #ffeb3b;
+}
+
+.fruit-counters article button {
+    margin: 0 8px;
+    padding: 2px 8px;
+    font-size: 18px;
+    width: auto;
+    background-color: #f1a02a66;
+}
+.fruit-counters button,
+form button{
+    margin: 8px 0;
+    width: 100%;
+    padding: 8px 0;
+    background-color: #2ee82e;
+    border-radius: 17px;
+}
+
+form,
+.fruit-counters {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    width: 500px;
+    padding: 8px 100px;
+    margin: 8px;
+    border: 1px solid black;
+background-color: #6ae16f69;
+}
+
+textarea {
+    display: block;
+    background-color: #a8f6a8;
+}
+
+form section {
+  margin: 20px 0 0 0;
+}
+
+label ~ input[type="text"],
+label ~ input[type="number"] {
+    margin-left: 8px;
+    width: 300px;
+    background-color: #a8f6a8;
+}
+
+label ~ input[type="select"] {
+    background-color: #a8f6a8;
+}
+
+
+detail-frequentie {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: 300px;
+}
